@@ -2,62 +2,69 @@ import React from "react";
 
 import html from "../assets/html.png";
 import css from "../assets/css.png";
-import javascript from "../assets/javascript.png";
+import java from "../assets/Java.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import android from "../assets/android.png";
+import mysql from "../assets/sql.png";
 import github from "../assets/github.png";
-import tailwind from "../assets/tailwind.png";
+import springboot from "../assets/SpringBoot.png";
+import dsa from "../assets/DSALogo.png";
 
 const Experience = () => {
   const techs = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
-    },
-    {
-      id: 2,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 3,
-      src: javascript,
-      title: "JavaScript",
+      src: java,
+      title: "Java",
       style: "shadow-yellow-500",
     },
     {
+      id: 2,
+      src: springboot,
+      title: "SpringBoot",
+      style: "shadow-green-400",
+    },
+    {
+      id: 3,
+      src: android,
+      title: "Android Development",
+      style: "shadow-green-800",
+    },
+    {
       id: 4,
+      src: dsa,
+      title: "Data Structures & Algorithms",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 5,
+      src: mysql,
+      title: "MySql",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 6,
+      src: github,
+      title: "GitHub",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 7,
       src: reactImage,
       title: "React",
       style: "shadow-blue-600",
     },
     {
-      id: 5,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
-    },
-    {
-      id: 6,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
-    },
-    {
-      id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
-    },
-    {
       id: 8,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-400",
+      src: html,
+      title: "HTML",
+      style: "shadow-orange-500",
+    },
+    {
+      id: 9,
+      src: css,
+      title: "CSS",
+      style: "shadow-blue-500",
     },
   ];
 
@@ -69,7 +76,7 @@ const Experience = () => {
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
-            Experience
+            Experience & Skills
           </p>
           <p className="py-6">These are the technologies I've worked with</p>
         </div>

@@ -16,7 +16,7 @@ const NavBar = () => {
     },
     {
       id: 3,
-      link: "portfolio",
+      link: "projects",
     },
     {
       id: 4,
@@ -51,7 +51,7 @@ const NavBar = () => {
         onClick={() => setNav(!nav)}
         className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
       >
-        {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+        {nav ? <FaTimes size={50} /> : <FaBars size={50} />}
       </div>
 
       {nav && (
