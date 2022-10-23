@@ -21,10 +21,10 @@ const SocialLinks = () => {
       id: 2,
       child: (
         <>
-          LeetCode <SiLeetcode size={30} />
+          GitHub <SiLeetcode size={30} />
         </>
       ),
-      href: "https://leetcode.com/upen05/",
+      href: "https://github.com/gitupen5",
     },
     {
       id: 3,

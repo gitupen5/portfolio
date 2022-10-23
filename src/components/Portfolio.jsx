@@ -1,42 +1,31 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/DSA.png";
-import installNode from "../assets/portfolio/ragegame.png";
-import navbar from "../assets/portfolio/EncChatApp.png";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import dsa from "../assets/portfolio/DSA.png";
+import unfairSquare from "../assets/portfolio/ragegame.png";
+import chatApp from "../assets/portfolio/EncChatApp.png";
+import videoCall from "../assets/portfolio/videoCall.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: navbar,
+      src: chatApp,
       href: "https://github.com/gitupen5/EncryptedChatAppProject",
     },
     {
       id: 2,
-      src: installNode,
+      src: unfairSquare,
       href: "https://play.google.com/store/apps/details?id=com.ViblightStudio.UnfairSquare",
     },
 
     {
       id: 3,
-      src: arrayDestruct,
+      src: dsa,
       href: "https://leetcode.com/upen05",
     },
     {
       id: 4,
-      src: reactParallax,
-    },
-
-    {
-      id: 5,
-      src: reactSmooth,
-    },
-
-    {
-      id: 6,
-      src: reactWeather,
+      src: videoCall,
+      href: "https://github.com/gitupen5/VideoCallApp",
     },
   ];
 
@@ -63,7 +52,7 @@ const Portfolio = () => {
               />
 
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button className="w-1/2 px-6 py-3 m-4 duration-300 hover:scale-105">
                   <a href={href} target="_blank" rel="noreferrer">
                     View
                   </a>
