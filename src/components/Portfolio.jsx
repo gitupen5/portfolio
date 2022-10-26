@@ -3,6 +3,8 @@ import dsa from "../assets/portfolio/DSA.png";
 import unfairSquare from "../assets/portfolio/ragegame.png";
 import chatApp from "../assets/portfolio/EncChatApp.png";
 import videoCall from "../assets/portfolio/videoCall.png";
+import youtubify from "../assets/portfolio/Youtubify.png";
+import disneyPlus from "../assets/portfolio/disneyPlus.PNG";
 
 const Portfolio = () => {
   const portfolios = [
@@ -19,13 +21,24 @@ const Portfolio = () => {
 
     {
       id: 3,
-      src: dsa,
-      href: "https://leetcode.com/upen05",
+      src: youtubify,
+      href: "https://melodious-entremet-67e614.netlify.app/",
     },
+
     {
       id: 4,
       src: videoCall,
       href: "https://github.com/gitupen5/VideoCallApp",
+    },
+    {
+      id: 5,
+      src: dsa,
+      href: "https://leetcode.com/upen05",
+    },
+    {
+      id: 6,
+      src: disneyPlus,
+      href: "https://disneyplus-clone-6a7d2.web.app/",
     },
   ];
 
